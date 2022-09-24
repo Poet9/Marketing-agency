@@ -1,3 +1,5 @@
+> This website was made based on the figma template from **Raftaar Rik polash** check out his [Template](https://www.figma.com/community/file/1120711007756039409)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
