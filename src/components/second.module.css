@@ -1,0 +1,120 @@
+/****** Brand styling *****/
+.secondBrands{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    box-shadow: 2px  3px 5px 1px rgba(51, 51, 51, 0.568) ;
+}
+.secondBrands > img{
+    margin: auto 0;
+}
+
+/******* Main content   ******/
+.secondRow{
+    justify-content: space-around !important;
+    margin: 20px 0;
+}
+.secondRow > .left {
+    text-align: left;
+    font-family: 'inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.secondRow > .left > h4 {
+    line-height: 40px;
+    margin: 20px auto;
+    width: 80%;
+
+}
+.secondRow > .left > p {
+    color: #333;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    padding-right: 10%;
+}
+.secondRow > .left > div{
+    width: 80%;
+    margin: 20px auto;
+}
+.secondRow > .left > div  img {
+    margin-right: 20px;
+}
+.secondRow > .left > .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.secondRow > .left > .stats  span{
+    font-size: 18px;
+    font-weight: 700 !important;
+}
+
+.secondRow > .left .exploreBtn {
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    width: 180px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+.secondRow > .left .exploreBtn:hover {
+    color: #fff !important;
+}
+/****** go to right side ******/ 
+.secondRow > .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 700px;
+}
+.secondRow > .right > div {
+    width: 190px;
+}
+.secondRow > .right > .blueContainer{
+    align-self: flex-end;
+}
+.secondRow > .right > div > div{
+    display: inline-block;
+    text-align: left;
+    width: 190px;
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+.secondRow > .right .pen > img {
+    padding: 15px;
+    background-color: #fc8f8fb4;
+    border-radius: 10px;
+} 
+.secondRow > .right .search > img {
+    padding: 15px;
+    background-color: #88e7ffbb;
+    border-radius: 10px;
+}
+.secondRow > .right > div > div > h5 {
+    margin: 10px 0;
+}
+.secondRow > .right > div > div > p {
+    margin: 20px 0;
+}
+.secondRow > .right .pen{
+    
+    border-image: linear-gradient( to bottom, #f82165a0, #fff) 1 repeat ;
+}
+.secondRow > .right .search{
+    border-image: linear-gradient( to bottom, #2190f8a0, #fff) 1 repeat ;
+}
+.secondRow > .right .pen > span{
+    color: #f82135a0;
+}
+.secondRow > .right .search > span{
+    color: #2190f8d5;
+}

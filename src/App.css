@@ -1,38 +1,135 @@
 .App {
   text-align: center;
+  background: linear-gradient(90deg, #FFE6E6 0%, #F5FFFE 26.81%, #FCF3FF 54.58%, #FFF4E6 99.86%);
+  font-family: 'inter', sans-serif;
+}
+.navBar-style{
+
+  background: linear-gradient(90deg, #FFE6E6 0%, #F5FFFE 26.81%, #FCF3FF 54.58%, #FFF4E6 99.86%);
+  padding: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* my styling */
+.brandContainer{
+  text-align: left;
+  align-items: flex-start;
+}
+.brandContainer > .brandName{
+  color: #dc3545;
+  font-size: 45px;
+  font-weight: 600;
+}
+.contactButton{
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 40px;
+  border-radius: 35px;
+  border: 1px solid rgb(252, 152, 152);
+}
+.contactButton:hover{
+  background-color: #dd2336;
+}
+.contactButton:focus{
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/****** footer *****/ 
+footer{
+  margin-top: 50px;
+  border-top: 1px solid #5555;
 }
+footer > .brandName{
+  color: #dc3545;
+  width: 88%;
+  margin-left: auto;
+  margin-top: 25px;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: left;
+}
+footer > .main {
+  display: flex;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: 20px 0;
+}
+footer > .main > .left{
+  width: 300px;
+}
+footer > .main > .left div{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+footer > .main > .left img{
+  width: 50px;
+}
+/***** middle *****/
+footer > .main > .middle {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
-
-.App-link {
-  color: #61dafb;
+footer > .main > .right > p,
+footer > .main > .middle > p {
+  color: #2EC4B6;
+  font-size: large;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin: 20px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer > .main > .middle > span {
+  margin: 5px 0;
+}
+/******* right ******/ 
+footer > .main > .right  .card{
+  width: 315px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+footer > .main > .right  .card > .cardImg{
+  width: 100px !important;
+  height: fit-content;
+}
+footer > .main > .right  .card > .cardBody > div{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2EC4B6;
+}
+footer > .main > .right  .card > .cardBody > p{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  margin-bottom: 0 !important;
+}
+footer > .main > .right  .card > .cardBody > div > span {
+  padding: 0px 3px;
+  max-height: 0;
+  border-radius: 50%;
+  background-color: #E71D36;
+  margin-right: 10px;
+}
+footer > .main > .right  .card > .cardBody > div:last-child{
+  color: #E71D36;
+  font-size: 10px;
+  font-weight: 400;
+}
+/******* copyright element *******/
+footer > .copyright {
+  font-size: 14px;
+  margin: 25px 25px 10px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+footer > .copyright > p > span {
+  color: #2EC4B6;
 }

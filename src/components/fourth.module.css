@@ -1,0 +1,82 @@
+.fourthMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.fourthMain > h2 {
+    font-weight: 600;
+    margin: 20px 0;
+}
+.fourthMain .nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.fourthMain > .examples >img {
+    margin: 20px;
+}
+.fourthMain > .btn {
+    width: 150px;
+    color: #fff;
+}
+.fourthMain > .btn {
+    color: #fff;
+}
+
+/******* cards *****/ 
+.fourthMain .cheveron {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+.fourthMain .cheveron > img {
+    padding: 10px;
+    box-shadow: 1px 1px #3337;
+    border-radius: 10px;
+    margin: 15px 5px;
+    background-color: #eeea;
+}
+.fourthMain .cheveron > img:last-child {
+    background-color: #e62828fb;
+}
+.fourthMain > .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.fourthMain > .cardContainer > .card {
+    display: flex;
+    flex-direction: row ;
+    max-width: 559px;
+    height: fit-content;
+    border-radius: 25px;
+    margin: 10px;
+}
+.fourthMain > .cardContainer > .card > .cardImg{
+    width: 201px !important;
+    height: 244px;
+    border-radius: 25px;
+}
+.fourthMain > .cardContainer > .card > .cardImgRed{
+    border-bottom: 3px solid #E71D36;
+}
+.fourthMain > .cardContainer > .card > .cardImgBlue{
+    border-bottom: 3px solid #2EC4B6;
+}
+.fourthMain > .cardContainer > .card > .cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.fourthMain > .cardContainer > .card > .cardBody > p {
+    color: #444;
+    line-height: 1.4;
+    font-weight: 300;
+}
+.fourthMain > .cardContainer > .card > .cardBody > span {
+    font-size: 10px;
+    color: #333;
+    font-weight: lighter;
+}
